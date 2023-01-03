@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Iglesia-Light";
+    src: url("https://cdn.discordapp.com/attachments/1051590981868343356/1051591172126146590/Iglesia-Light.woff") format("woff"), url("https://cdn.discordapp.com/attachments/1051590981868343356/1051591172415557712/Iglesia-Light.woff2") format("woff2"), url("https://cdn.discordapp.com/attachments/1051590981868343356/1051591171429896244/Iglesia-Light.svg#Iglesia-Light") format("svg"), url("https://cdn.discordapp.com/attachments/1051590981868343356/1051591170641367050/Iglesia-Light.eot"), url("https://cdn.discordapp.com/attachments/1051590981868343356/1051591170641367050/Iglesia-Light.eot?#iefix") format("embedded-opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+html,
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+video {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.itbegins {
+    position: relative;
+    z-index: 2147483647;
+    width: 50vw !important;
+    padding: 0;
+    margin: 0 auto !important;
+}
+.pipe {
+    position: absolute;
+    transform: translate(-50%, 0);
+    width: 664px;
+    height: 45px;
+    bottom: 0;
+    z-index: 91723981723;
+}
+.we {
+    position: absolute;
+    display: block;
+    z-index: 472618;
+    bottom: 0;
+    right: 0;
+    width: 96px;
+    height: 103px;
+}
+.key {
+    position: absolute;
+    z-index: 8885858;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.key p {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 6em;
+    font-family: "Iglesia-Light";
+    color: #331e0d;
+    text-shadow: 1px 0 0 #ccc, -1px 0 0 #ccc, 0 1px 0 #ccc, 0 -1px 0 #ccc, 1px 1px #ccc, -1px -1px 0 #ccc, 1px -1px 0 #ccc, -1px 1px 0 #ccc;
+}
